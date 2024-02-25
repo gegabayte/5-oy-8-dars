@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header__container {
+  background-color: rgb(16, 16, 96);
+}
+.header__container .head__logo {
+  display: flex;
+  align-items: center;
+}
+.header__container .head__logo span {
+  color: aliceblue;
+  padding: 8px 10px;
+  transition: all 0.5s;
+}
+.header__container .head__logo span:hover {
+  background-color: rgb(175, 211, 243);
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+}
+.header__container .head__logo .Bussines {
+  margin-left: 10px;
+  opacity: 0.8;
+  border-left: 3px solid rgb(253, 251, 251);
+  padding-left: 15px;
+}
+.header__container .head__logo .Bussines:hover {
+  background-color: rgb(175, 211, 243);
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+.header__container ul li {
+  list-style: none;
+}
+.header__container ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 8px 10px;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+.header__container ul li a:hover {
+  background-color: rgb(175, 211, 243);
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+}
+.header__container ul {
+  position: relative;
+  top: 8px;
+}
+.header__container .btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__container .btn a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+.header__container .btn a:hover {
+  background-color: rgb(175, 211, 243);
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+}
+.header__container .btn button {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.5s;
+}
+.header__container .btn button:hover {
+  opacity: 0.9;
+}
+
+.body {
+  background-color: rgb(16, 16, 96);
+  height: 300px;
+  width: 1320px;
+  position: relative;
+  left: -12px;
+}
+.body h1 {
+  margin-top: 80px;
+  text-align: center;
+  color: #fff;
+}
+.body p {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.hero__contain {
+  max-width: 1000px;
+  width: 100%;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative;
+  top: -170px;
+  box-shadow: 2px 4px 4px lightgray, -2px -2px 4px lightgray;
+  border-radius: 10px;
+}
+.hero__contain .hero__head {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -49px;
+}
+.hero__contain .block {
+  border-radius: 4px;
+  padding: 10px 92px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+.hero__contain .block a {
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.hero__contain .block1 {
+  background-color: #fff;
+}
+.hero__contain .block:hover {
+  opacity: 0.6;
+  padding: 10px 92px;
+}
+.hero__contain .hero__input {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  align-items: center;
+}
+.hero__contain .hero__input select {
+  width: 30%;
+  height: 40px;
+}
+.hero__contain .hero__input .lebels1 {
+  position: relative;
+  top: -38px;
+  right: -18px;
+}
+.hero__contain .hero__input .lebels2 {
+  position: relative;
+  top: -38px;
+  right: -38px;
+}
+.hero__contain .hero__input .input {
+  position: relative;
+  top: -7px;
+}
+
+.hero__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__btn p {
+  padding: 5px 15px;
+  background-color: rgb(226, 232, 234);
+  border-radius: 5px;
+}
+.hero__btn button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.hero__btn button:hover {
+  opacity: 0.6;
+}
+
+.wrapper h3 {
+  font-size: 60px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+#rotate {
+  margin-left: 12px;
+  margin-right: -22px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

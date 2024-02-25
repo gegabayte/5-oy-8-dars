@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="vebsite icon" type="png" href="img/LOGO1.png">
+    <title>Xe: Currency Excchange Rates and International Money Transfers</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="head d-flex align-items-center justify-content-around">
+                <div class="head__logo">
+                    <a href=""><img width="70" src="./img/Logo.png" alt="logo"><span>Personal</span><span
+                            class="Bussines">Bussines</span></a>
+                </div>
+                <div class="nav">
+                    <ul class="d-flex align-items-center gap-4">
+                        <li><a href="#">Send Money</a></li>
+                        <li><a href="#">Converter</a></li>
+                        <li><a href="#">Currency Api</a></li>
+                        <li><a href="#">Tools</a></li>
+                        <li><a href="#">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="btn">
+                    <a href="#">Sign In</a>
+                    <button>Register</button>
+                </div>
+            </div>
+            <div class="body">
+                <h1>Trusted Global Currency Converter & Money Transfers</h1>
+                <p>Best source for currency conversion, sending money online and tracking exchange rates</p>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="hero__contain">
+                <div class="hero__head">
+                    <div class="block1 block">
+                        <a href="#"><i class="fa-regular fa-comments-dollar"></i> Convert</a>
+                    </div>
+                    <div class="block2 block">
+                        <a href="#"><i class="fa-regular fa-paper-plane"></i> Send</a>
+                    </div>
+                    <div class="block3 block">
+                        <a href="#"><i class="fa-regular fa-chart-line"></i> Charts</a>
+                    </div>
+                    <div class="block4 block">
+                        <a href="#"><i class="fa-regular fa-chart-line"></i> Alerts</a>
+                    </div>
+                </div>
+                <div class="hero__input">
+                    <div class="mb-3 col-4 input">
+                        <label for="Amount" class="form-label">Amount</label>
+                        <input id="Amount" type="number" class="form-control" plaid="Amount"placeholder="€100.00">
+                    </div>
+                    <label for="to" class="form-label lebels1">to</label>
+                    <select class="form-select col-4" id="to" aria-label="Default select example">
+                        <option selected>EUR - Euro</option>
+                      </select>
+                      <i id="rotate" class="fa-solid fa-arrows-rotate"></i>
+                    <label for="From" class="form-label lebels2">Form</label>
+                    <select class="form-select col-4" id="From" aria-label="Default select example">
+                        <option value="1">AED: 3.97866</option>
+                        <option value="2">AFN: 79.811035</option>
+                        <option value="3">ALL: 103.72266</option>
+                        <option value="4">ARS: 907.316044</option>
+                        <option value="5">AUD: 1.65273</option>
+                    </select>
+                </div>
+                <div id="wrraper" class="wrraper">
+                    
+                </div>
+                <div class="hero__btn">
+                    <p>We use the mid-market rate for our Converter. This is for informational purposes only. <br> You won’t receive this rate when sending money. <a href="#">Login to view send rates</a></p>
+                    <button id="convert">Convert</button>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
